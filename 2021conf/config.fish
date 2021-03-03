@@ -14,14 +14,6 @@ function backup
   cp ~/.config/fish/config.fish ~/dutc/
 end
 
-function vipython
-	cp /home/iamfiasco/dutc/python.py .ycm_extra_conf.py
-end
-
-
-function vijs
-	cp /home/iamfiasco/dutc/.tern-project .
-end
 
 function cpprun
 	mkdir -p /home/iamfiasco/cpp
